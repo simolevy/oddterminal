@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1> where\who/what\? are you? </h1>
+        <p>what do you want to know?</p>
+    </header>
+
+    <div id="nav-bar">
+        <ul>
+            <li><a href="#art">>art?\></a></li>
+            <li><a href="#read">>read?\></a></li>
+            <li><a href="#guess">>guess?\></a></li>
+        </ul>
+       </div>
+
+    <!-- Terminal Window -->
+    <div id="screen">
+        <div id="terminal">
+            <p>Speak to yourself or someone else. Type a command...</p>
+            <div id="output"></div>
+            <span id="cursor">█</span>
+            <input type="text" id="input" autofocus>
+        </div>
+    </div>
+
+    <!-- Scanlines (Moved Outside for Proper Overlay) -->
+    <div class="scanlines"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
